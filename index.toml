@@ -110,7 +110,7 @@ hash = "a200148a1d65802310b4a477e2bb76ae4202e16da96edcf62c82ff303911caac"
 
 [[files]]
 file = "config/biome_replacer.properties"
-hash = "08d6a39eb0b5518d79f9306141bdbdb52ab5d7e89195c768731969030a8c7d29"
+hash = "34a2a56d86ce2e4100730524fc904e1985a6835193b88bc085beb2269e7f5354"
 
 [[files]]
 file = "config/blockrunner-client.toml"
@@ -171,6 +171,10 @@ hash = "7ba770f3612ebf571a4f18191a3151f16f97102251475f2bbf63c6d0a6d4f12d"
 [[files]]
 file = "config/connector.json"
 hash = "67bee06b2b321ed25e0d4e9b5bac7ab76c8ae76442de6caf11f463ce2ae1ac5e"
+
+[[files]]
+file = "config/controlify.json"
+hash = "555bcb4dbdedd14978ba2cf48f8495e377fbf7e46a60be0d81b4c27703bb07dc"
 
 [[files]]
 file = "config/create-client.toml"
@@ -266,7 +270,7 @@ hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "32cc7304f345a25c482eab32ce70348db21b89e0e8f2ba2ae093d19f15967d2c"
+hash = "a9c1c88f66a76a2caae723971d2569b9fe23c673bcda007e7de740262a1620ca"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -414,7 +418,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "088dfa7d9274ffe74e250740bbd62b8fac3b53510b80add08e3a842049867602"
+hash = "4ddfce04eb5fd7b7d801f066aaf15cc728ee88078792b0a0a5be5c1bfa729f6e"
 
 [[files]]
 file = "config/jeb_1_21_1-common.toml"
@@ -701,6 +705,14 @@ file = "config/spark/tmp-client/about.txt"
 hash = "8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a"
 
 [[files]]
+file = "config/spark/tmp-client/spark-3fef7d991ce9-libasyncProfiler.so.tmp"
+hash = "ca887a92875658c128fb6d10b68b04fca6ae17669fba6fa60af9efc1c787dec0"
+
+[[files]]
+file = "config/spark/tmp-client/spark-408a0c185375-profile-data.jfr.tmp"
+hash = "122d3fcadf0a9d2f1b0e341c6040d4c9f54e8c0bed47a026dc2d03cedff097a1"
+
+[[files]]
 file = "config/spark/tmp/about.txt"
 hash = "8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a"
 
@@ -710,7 +722,7 @@ hash = "277c5cecdc03a47b3d87eb95a086ca0c93919ff06da7af42aecf6f989892a975"
 
 [[files]]
 file = "config/structurify.json"
-hash = "5c40181c0eee70198f701029c7a850128811c8568de46a6394b158074825c994"
+hash = "bb0c2f941d5a0e257929350f15da30362ed9131442d9155d8d9b0ee613df3881"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-01-30_16-24-46.json"
@@ -723,6 +735,10 @@ hash = "9e6241a3beae106d4cad19e7f722bb1ba9b642133b75ed2b0cd13502b0be79df"
 [[files]]
 file = "config/structurify/structurify_backup_2026-02-02_19-39-52.json"
 hash = "e7a100f4ea5649e2f16d2c6e898100a28988750f07ce22d05250f8c0cdf18f0e"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-02-03_05-12-04.json"
+hash = "5c40181c0eee70198f701029c7a850128811c8568de46a6394b158074825c994"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -933,20 +949,16 @@ file = "kubejs/data/cascades-source-v1.0.4.1-1.21.x.zip"
 hash = "73018978c4cef29eb01cb2501ed89f5a7e9c67cbc310c6bdf3f66b71438b42a4"
 
 [[files]]
-file = "kubejs/data/minecraft/loot_table/chests/abandoned_mineshaft.json"
-hash = "551d5879a8693fcf7030705ee5c336e1fdc120d2dc5238c8b6b3ab0e2b60ac0d"
-
-[[files]]
-file = "kubejs/data/minecraft/loot_table/chests/simple_dungeon.json"
-hash = "9ceffea1ca1a4da3b8156eb4a03d4ca79d6aca21a4e7dbed98332cfeeb6469ed"
-
-[[files]]
-file = "kubejs/data/minecraft/loot_table/gameplay/fishing.json"
-hash = "12a02aa5909c9c090a83b65c2a49c57bc8d5acbbfe9b193373a591eea2b54d9b"
+file = "kubejs/data/minecraft.zip"
+hash = "4ae8c1de21760d7da04fc4ad8d43b76ef40f66307b8d5551be8b6c0d4ba289a8"
 
 [[files]]
 file = "kubejs/data/nomorekelp.zip"
 hash = "c3ac7409ae2c2e2ef2bd82b5d100dfba7e0fc7a36594d42d94d9770e50ae1486"
+
+[[files]]
+file = "kubejs/data/remove_modern_vegetation.zip"
+hash = "e3242b26e696ea4ca857ba2844a00e5600d2d6e840174dc10edcb35f9d567339"
 
 [[files]]
 file = "kubejs/server_scripts/logic.js"
@@ -1124,11 +1136,6 @@ metafile = true
 [[files]]
 file = "mods/item-obliterator.pw.toml"
 hash = "eadd3903e334de075f691f148847b55f7c20b214dd4d8af832ea229930cd6242"
-metafile = true
-
-[[files]]
-file = "mods/justenoughbook.pw.toml"
-hash = "31332a025b72ea67ea402fc031e0fe60b334012b5cb54b5f2208d338dcbbc30b"
 metafile = true
 
 [[files]]
