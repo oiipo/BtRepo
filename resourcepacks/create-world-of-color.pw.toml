@@ -1,0 +1,13 @@
+name = "Create: World of Color"
+filename = "Create_World_of_Color.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DX25XG2W/versions/RjBay7Xk/Create_World_of_Color.zip"
+hash-format = "sha512"
+hash = "bb8cb72094dc506202865c9dc0caa13a89f0e40f43110aabad38d165417ac17030905bbeaed93a5f7b6b8786a95000501b4ef051bace8b66cc7d992110f055b2"
+
+[update]
+[update.modrinth]
+mod-id = "DX25XG2W"
+version = "RjBay7Xk"

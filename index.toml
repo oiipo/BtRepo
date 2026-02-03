@@ -990,7 +990,7 @@ hash = "5d805284f18e90fb6ec996fd56262d8eac65264d4d27cc41c834bfe469ac0457"
 
 [[files]]
 file = "mods/aa4-atlas.pw.toml"
-hash = "b0f4978249cfad9bbdafe79da8df8ff5289d040bc661c34f8f0c81b1e07f1ac7"
+hash = "c7bfef351745f41a87297176947fd72702b07606e74d9d875f3030c0ca971a4d"
 metafile = true
 
 [[files]]
@@ -1294,5 +1294,25 @@ file = "resourcepacks/acclimate 2.0 with watcher.zip"
 hash = "b7ddc1fc7a12ceaafe0cc90f77eeae31782d5b256928604a89d0da5d56280501"
 
 [[files]]
+file = "resourcepacks/acclimate.pw.toml"
+hash = "cab19a082a18d481083b51c5f4c933db84b9f989f78164517959890b4b3ef53a"
+metafile = true
+
+[[files]]
+file = "resourcepacks/c4music.pw.toml"
+hash = "7874d5c0314854e2db9630f08b94107d5f00d3dd930ad0622a7c2dc6d3d745a1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-world-of-color.pw.toml"
+hash = "b62d7e03cea6ba665a69548ac305d77755f6de902032d491af2b03c8b0d1666d"
+metafile = true
+
+[[files]]
 file = "resourcepacks/golden-days-base-1.21.x-1.13.1.zip"
 hash = "82d6a6e5093752eeb417c6bbd0e373e08423c0c71d09ccda223e445d064ef84a"
+
+[[files]]
+file = "resourcepacks/golden-days.pw.toml"
+hash = "a81a5279108980fb619b92c956fef1264784de4e04258e7a98f2d23fdad4112e"
+metafile = true
