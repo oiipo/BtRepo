@@ -1,17 +1,13 @@
-filename = 'quick_torch_placement-1.0.1-neoforge-1.21.1.jar'
-name = 'Quick Torches'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'quick_torch_placement-1.0.1-neoforge-1.21.1.jar'
+name = "Quick Torches"
+filename = "quick_torch_placement-1.0.1-neoforge-1.21.1.jar"
+side = "both"
 
 [download]
-hash = 'eff200f140edf391525eeb8932f704cfc5b00e77'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = "sha1"
+hash = "eff200f140edf391525eeb8932f704cfc5b00e77"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
 file-id = 6652882
 project-id = 818590

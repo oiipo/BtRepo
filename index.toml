@@ -1085,7 +1085,7 @@ metafile = true
 
 [[files]]
 file = "mods/easy-name-tags-rename-nametags.pw.toml"
-hash = "f6d476a911e7cd199d87df9d37d5bcb2fe60593d0223dd883b01bda4a737626d"
+hash = "270985ca5385e15aa12e83f0c43a216878d2628d841c954f8067a4d0cd91dc3f"
 metafile = true
 
 [[files]]
@@ -1100,17 +1100,17 @@ metafile = true
 
 [[files]]
 file = "mods/fastfurnace.pw.toml"
-hash = "a7cc9f98180c444aa620eccb9249be1777945ca907fe53dfdfefe03a3a33d054"
+hash = "4f7c443c70a28284bfb40e613c835167c9c71f2db257714275041f16e280b6d9"
 metafile = true
 
 [[files]]
 file = "mods/fastsuite.pw.toml"
-hash = "18c133d9c76401f1c7ec7fa8131ff523cc88eb3a9cc4635d505843679e8efc0c"
+hash = "83e60a73e109258def123fbcab5cf606857f36feca621a4c40c9d7c10b285bca"
 metafile = true
 
 [[files]]
 file = "mods/fastworkbench.pw.toml"
-hash = "62ab10ce846009cd530e3588b561352ab117f3ea15cdae695a6c27a448318ee4"
+hash = "0d13e70b59a7f4623237f6b03e22368235d123030f36f18312fd20a8f7d2e459"
 metafile = true
 
 [[files]]
@@ -1209,12 +1209,12 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "90fe689fc4463706ef3a16e429ff992a93c32035557d1482b444b83a6d2c0a3a"
+hash = "201e0be56d2d9430843688b4a04dea207732b6d60f8001fb9e6396d48aea287f"
 metafile = true
 
 [[files]]
 file = "mods/quick-torches.pw.toml"
-hash = "7745c4167555ff5149c60e1d34e3bff1d5c3f97e39a7d1adea8b48fbf7969d37"
+hash = "def378960125cd09bc7400029be5f7fd6488050ba6821b9dc7f7da405b69fe39"
 metafile = true
 
 [[files]]
@@ -1282,18 +1282,6 @@ hash = "0b7f035603339eacbbe99e1e56c87023ff3d825554aa6dc04873887eecf872b9"
 metafile = true
 
 [[files]]
-file = "resourcepacks/C4Music_v4.3.zip"
-hash = "4da5ef43f4ea1b226fc195efed973963a138251b6a05c2c5ea27160b95b54234"
-
-[[files]]
-file = "resourcepacks/Create World of Color.zip"
-hash = "f34514d6660665b8f59ec0a329eb3225982f23f6d0be6496407e0c9c3e6c7b7b"
-
-[[files]]
-file = "resourcepacks/acclimate 2.0 with watcher.zip"
-hash = "b7ddc1fc7a12ceaafe0cc90f77eeae31782d5b256928604a89d0da5d56280501"
-
-[[files]]
 file = "resourcepacks/acclimate.pw.toml"
 hash = "cab19a082a18d481083b51c5f4c933db84b9f989f78164517959890b4b3ef53a"
 metafile = true
@@ -1307,10 +1295,6 @@ metafile = true
 file = "resourcepacks/create-world-of-color.pw.toml"
 hash = "b62d7e03cea6ba665a69548ac305d77755f6de902032d491af2b03c8b0d1666d"
 metafile = true
-
-[[files]]
-file = "resourcepacks/golden-days-base-1.21.x-1.13.1.zip"
-hash = "82d6a6e5093752eeb417c6bbd0e373e08423c0c71d09ccda223e445d064ef84a"
 
 [[files]]
 file = "resourcepacks/golden-days.pw.toml"

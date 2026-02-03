@@ -1,17 +1,13 @@
-filename = 'easynametags-1.21.1-a.jar'
-name = 'Easy Name Tags - Rename Nametags!'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'easynametags-1.21.1-a.jar'
+name = "Easy Name Tags - Rename Nametags!"
+filename = "easynametags-1.21.1-a.jar"
+side = "both"
 
 [download]
-hash = 'e9d62c8294ed6ad00fd225f6ea0667089b9d427e'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = "sha1"
+hash = "e9d62c8294ed6ad00fd225f6ea0667089b9d427e"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
 file-id = 6513271
 project-id = 923018
