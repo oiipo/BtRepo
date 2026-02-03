@@ -1272,16 +1272,6 @@ file = "options.txt"
 hash = "1b4f479bebe033a7d17f93304fadb26631a6cd7ca3c8ff68441b2ea46d87e1f8"
 
 [[files]]
-file = "resourcepacks/.index/acclimate.pw.toml"
-hash = "4d679bf073f983e89867f1689e39788d0a3c895fe10f1b548f6bc7eb59512093"
-metafile = true
-
-[[files]]
-file = "resourcepacks/.index/c4music.pw.toml"
-hash = "0b7f035603339eacbbe99e1e56c87023ff3d825554aa6dc04873887eecf872b9"
-metafile = true
-
-[[files]]
 file = "resourcepacks/acclimate.pw.toml"
 hash = "cab19a082a18d481083b51c5f4c933db84b9f989f78164517959890b4b3ef53a"
 metafile = true
