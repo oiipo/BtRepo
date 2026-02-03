@@ -1,6 +1,6 @@
 filename = 'cwb-neoforge-3.0.0+mc1.21.jar'
 name = 'Cubes Without Borders'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
 x-prismlauncher-release-type = 'release'

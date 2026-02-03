@@ -1,6 +1,6 @@
 filename = 'yeetusexperimentus-neoforge-87.0.0.jar'
 name = 'Yeetus Experimentus'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [
     '1.21',

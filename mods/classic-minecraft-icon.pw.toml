@@ -1,6 +1,6 @@
 filename = 'classic-minecraft-icon-v1.1.6-mc1.21.11-neoforge.jar'
 name = 'Classic Minecraft Icon'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [
     '1.21',

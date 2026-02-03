@@ -1,6 +1,6 @@
 filename = 'easynametags-1.21.1-a.jar'
 name = 'Easy Name Tags - Rename Nametags!'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'

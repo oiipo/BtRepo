@@ -1,6 +1,6 @@
 filename = 'Acclimate_2.0.1_MC-Music-Revised.zip'
 name = 'Acclimate - Revised Minecraft OST & C4Music Addon'
-side = ''
+side = 'client'
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
     '1.20.3',

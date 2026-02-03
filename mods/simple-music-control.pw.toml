@@ -1,6 +1,6 @@
 filename = 'simple_music_control-1.3.7+1.21.1.jar'
 name = 'Simple Music Control'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
 x-prismlauncher-release-type = 'release'

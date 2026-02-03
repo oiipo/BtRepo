@@ -1,6 +1,6 @@
 filename = 'e4mc-neoforge-6.0.4.jar'
 name = 'e4mc'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [
     '1.20.2',

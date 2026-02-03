@@ -1,6 +1,6 @@
 filename = 'C4Music_v4.3.zip'
 name = 'C4Music - C418 Music Pack'
-side = ''
+side = 'client'
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '1.21.10', '1.21.10', '1.21.11', '1.21.11', '1.21.9', '1.21.9' ]
 x-prismlauncher-release-type = 'release'

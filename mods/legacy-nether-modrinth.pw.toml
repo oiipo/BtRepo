@@ -1,6 +1,6 @@
 filename = 'legacy-nether-modrinth-2.0.1.jar'
 name = 'Legacy Nether'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
