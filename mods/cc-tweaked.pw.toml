@@ -1,0 +1,17 @@
+filename = 'cc-tweaked-1.21.1-forge-1.117.0.jar'
+name = 'CC: Tweaked'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '1.117.0'
+
+[download]
+hash = '6fb0a7263845552d31683c7548b80bd9449acbaae5ad200391f1b5866caf225f2308a025a59bcfb0eca9205c11c691810089d87e569f6ada83b6218c0362fa97'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gu7yAYhd/versions/hAW75xeY/cc-tweaked-1.21.1-forge-1.117.0.jar'
+
+[update.modrinth]
+mod-id = 'gu7yAYhd'
+version = 'hAW75xeY'

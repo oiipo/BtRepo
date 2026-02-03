@@ -1,0 +1,2 @@
+# Renders square rings & cones instead. Significantly less impact on FPS
+lowResolutionRender = false

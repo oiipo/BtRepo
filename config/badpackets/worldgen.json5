@@ -1,0 +1,11 @@
+{
+  // A list of features to prevent from generating in the world.
+  disabled_features: [
+    "minecraft:cave_vine",
+    "minecraft:azalea_tree",
+    "minecraft:lush_caves_vegetation",
+    "minecraft:spore_blossom",
+    "minecraft:hanging_roots",
+    "minecraft:glow_lichen",
+  ]
+}

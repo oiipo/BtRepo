@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "save_enabled_state": true,
+  "hide_world_border": false,
+  "scale_x": 3.052144,
+  "scale_y": 3.0,
+  "min_distance": -1000.0,
+  "max_distance": 1000.0,
+  "fixed": true,
+  "fixed_yaw": 63.943497,
+  "fixed_pitch": 40.571945,
+  "fixed_rotate_speed_y": 0.0,
+  "fixed_rotate_speed_x": 3.0,
+  "auto_third_person": false
+}

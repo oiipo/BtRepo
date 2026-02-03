@@ -1,0 +1,10 @@
+# Lowest key possible.
+# Range: "C1", "C#1", ..., "F#3" or 0 ~ 30
+minNote = "C3"
+# Highest key possible.
+# Range: "F#5", "G5", ..., "A#7" or 54 ~ 82
+maxNote = "C6"
+# Time in ms per subtick. Amount of subticks equals 2 ticks (100ms) / subtick length
+# Default: 5
+# Range: 5 ~ 25
+subtickDelay = 5

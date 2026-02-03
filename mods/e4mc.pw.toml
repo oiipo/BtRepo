@@ -1,0 +1,52 @@
+filename = 'e4mc-neoforge-6.0.4.jar'
+name = 'e4mc'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [
+    '1.20.2',
+    '1.20.2',
+    '1.20.3',
+    '1.20.3',
+    '1.20.4',
+    '1.20.4',
+    '1.20.5',
+    '1.20.5',
+    '1.20.6',
+    '1.20.6',
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.10',
+    '1.21.10',
+    '1.21.11',
+    '1.21.11',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8',
+    '1.21.9',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.0.4-neoforge'
+
+[download]
+hash = '70b752e3f4856f37510b0c50e16b462914befd70ee31faf72963fb82a07ddc91c29dd1df2da90270d824ef0943bb548ff190a77c3cf66742959d17b2d3b5bb6a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qANg5Jrr/versions/w9nWt7NL/e4mc-neoforge-6.0.4.jar'
+
+[update.modrinth]
+mod-id = 'qANg5Jrr'
+version = 'w9nWt7NL'

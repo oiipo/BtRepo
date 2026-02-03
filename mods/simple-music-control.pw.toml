@@ -1,0 +1,17 @@
+filename = 'simple_music_control-1.3.7+1.21.1.jar'
+name = 'Simple Music Control'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.7+1.21.1'
+
+[download]
+hash = '57df6dd59e319e020a8fbd94af383dc13e9d63b2d2b29918a2ae3a891bc940973e3eb02d9357cd80eca8d7b5b1b0692fc1b67af040e23b8dba9f1f9037494cc6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8AX2hHnX/versions/AXz4cNsW/simple_music_control-1.3.7%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = '8AX2hHnX'
+version = 'AXz4cNsW'

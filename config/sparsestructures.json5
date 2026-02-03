@@ -1,0 +1,86 @@
+{
+    "spreadFactor": 2,
+    "idBasedSalt": true,
+    "customSpreadFactors": [
+        {
+            "structure": "minecraft:ancient_cities",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:buried_treasures",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:desert_pyramids",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:end_cities",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:igloos",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:jungle_temples",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:fortress",
+            "factor": 1
+        },
+        {
+            "structure": "minecraft:nether_fossils",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:ocean_monuments",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:ocean_ruins",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:pillager_outposts",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:ruined_portals",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:shipwrecks",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:swamp_huts",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:trail_ruins",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:trial_chambers",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:villages",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:stronghold",
+            "factor": 0
+        },
+        {
+            "structure": "minecraft:woodland_mansions",
+            "factor": 0
+        },
+        {
+            "structure": "moderner_beta:ocean_shrine",
+            "factor": 0
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "music.disc_1": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 1",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_1",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_2": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 2",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_2",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_3": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 3",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_3",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_4": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 4",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_4",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_5": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 5",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_5",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_6": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 6",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_6",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_7": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 7",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_7",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_8": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 8",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_8",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_9": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 9",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_9",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_10": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 10",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_10",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_11": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 11",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_11",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_12": {
+        "category": "record",
+        "subtitle": "KubeJS Disc 12",
+        "sounds": [
+            {
+                "name": "kubejs:music/disc_12",
+                "stream": true
+            }
+        ]
+    }
+}
