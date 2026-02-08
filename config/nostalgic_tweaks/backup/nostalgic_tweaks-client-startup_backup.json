@@ -176,7 +176,7 @@
     "hideStaminaBar": false,
     "hideStaminaMoving": false,
     "hideStaminaCooldown": false,
-    "hideStaminaBarInactive": false,
+    "hideStaminaBarInactive": true,
     "highlightStaminaBar": false,
     "flashStaminaBarWhenFull": true,
     "flashStaminaBarAt": 7,

@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:false
-resourcePacks:["vanilla","mod_resources","programmer_art","fabric","file/golden-days-base-1.21.x-1.13.1.zip","file/Create World of Color.zip","file/C4Music_v4.3.zip","file/acclimate 2.0 with watcher.zip"]
-incompatibleResourcePacks:["file/Create World of Color.zip","file/acclimate 2.0 with watcher.zip"]
+resourcePacks:["vanilla","mod_resources","programmer_art","fabric","file/golden-days-base-1.21.x-1.14.0.zip","file/C4Music_v4.2.zip","file/Acclimate_2.0.1_MC-Music-Revised.zip","file/Create_World_of_Color.zip","mod/lootr:resourcepacks/old_textures"]
+incompatibleResourcePacks:["file/Acclimate_2.0.1_MC-Music-Revised.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -149,7 +149,6 @@ key_key.kubejs.kubedex:key.keyboard.k
 key_key.scholar.toggle_book_tools:key.keyboard.f1
 key_key.scholar.import_book:key.keyboard.f6
 key_key.scholar.export_book:key.keyboard.f7
-key_key.jeb.add_remove_favorite_recipes:key.keyboard.a
 key_key.ponder.ponder:key.keyboard.w
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt

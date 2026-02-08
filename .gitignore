@@ -1,1 +1,11 @@
 .vscode/settings.json
+config/CSC/.DS_Store
+kubejs/data/.DS_Store
+kubejs/.DS_Store
+config/spark/.DS_Store
+config/sidekick.ini
+config/reliable_replacer/example_rules.json.disabled
+config/paxi/.DS_Store
+/config/paxi
+config/nostalgic_tweaks/backup/nostalgic_tweaks-client-backup_feb-03-2026-0751pm.json
+.DS_Store

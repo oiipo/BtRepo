@@ -1,0 +1,338 @@
+[
+    {
+        "_comment": "Deepslate -> Stone Layer",
+        "inputs": [
+            "minecraft:deepslate"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": true,
+        "retrogen": true,
+        "player_blocks": false
+    },
+    {
+        "_comment": "Deepslate Ores -> Stone Ores",
+        "inputs": [
+            "minecraft:deepslate_coal_ore"
+        ],
+        "output": "minecraft:coal_ore",
+        "keep_states": true,
+        "retrogen": true
+    },
+    {
+        "_comment": "Deepslate Iron -> Iron",
+        "inputs": [
+            "minecraft:deepslate_iron_ore"
+        ],
+        "output": "minecraft:iron_ore",
+        "keep_states": true,
+        "retrogen": true
+    },
+    {
+        "_comment": "Deepslate Gold -> Gold",
+        "inputs": [
+            "minecraft:deepslate_gold_ore"
+        ],
+        "output": "minecraft:gold_ore",
+        "keep_states": true,
+        "retrogen": true
+    },
+    {
+        "_comment": "Deepslate Redstone -> Redstone",
+        "inputs": [
+            "minecraft:deepslate_redstone_ore"
+        ],
+        "output": "minecraft:redstone_ore",
+        "keep_states": true,
+        "retrogen": true
+    },
+    {
+        "_comment": "Deepslate Emerald -> Stone",
+        "inputs": [
+            "minecraft:deepslate_emerald_ore"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": true,
+        "retrogen": true
+    },
+    {
+        "_comment": "Emerald -> Stone",
+        "inputs": [
+            "minecraft:emerald_ore"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": true,
+        "retrogen": true
+    },
+    {
+        "_comment": "Deepslate Lapis -> Lapis",
+        "inputs": [
+            "minecraft:deepslate_lapis_ore"
+        ],
+        "output": "minecraft:lapis_ore",
+        "keep_states": true,
+        "retrogen": true
+    },
+    {
+        "_comment": "Deepslate Diamond -> Diamond",
+        "inputs": [
+            "minecraft:deepslate_diamond_ore"
+        ],
+        "output": "minecraft:diamond_ore",
+        "keep_states": true,
+        "retrogen": true
+    },
+    {
+        "_comment": "Copper Ore -> Stone",
+        "inputs": [
+            "minecraft:copper_ore",
+            "minecraft:deepslate_copper_ore",
+            "minecraft:raw_copper_block"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Stone Variants (Granite, Diorite, Andesite)",
+        "inputs": [
+            "minecraft:granite",
+            "minecraft:diorite",
+            "minecraft:andesite"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": true,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Tuff",
+        "inputs": [
+            "minecraft:tuff"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": true,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Amethyst Geode Blocks",
+        "inputs": [
+            "minecraft:amethyst_block",
+            "minecraft:budding_amethyst",
+            "minecraft:amethyst_cluster",
+            "minecraft:large_amethyst_bud",
+            "minecraft:medium_amethyst_bud",
+            "minecraft:small_amethyst_bud",
+            "minecraft:calcite",
+            "minecraft:smooth_basalt"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Overworld Magma Blocks (Underwater)",
+        "inputs": [
+            "minecraft:magma_block"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": false,
+        "retrogen": true,
+        "dimensions": [
+            "minecraft:overworld"
+        ]
+    },
+    {
+        "_comment": "Remove Podzol (Replace with Grass Block)",
+        "inputs": [
+            "minecraft:podzol"
+        ],
+        "output": "minecraft:grass_block",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Dripstone",
+        "inputs": [
+            "minecraft:dripstone_block"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Pointed Dripstone",
+        "inputs": [
+            "minecraft:pointed_dripstone"
+        ],
+        "output": "minecraft:air",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Sculk / Deep Dark Blocks",
+        "inputs": [
+            "minecraft:sculk",
+            "minecraft:sculk_sensor",
+            "minecraft:sculk_catalyst",
+            "minecraft:sculk_shrieker"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Sculk Vein",
+        "inputs": [
+            "minecraft:sculk_vein"
+        ],
+        "output": "minecraft:air",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Raw Ore Blocks",
+        "inputs": [
+            "minecraft:raw_iron_block",
+            "minecraft:raw_gold_block",
+            "minecraft:raw_copper_block"
+        ],
+        "output": "minecraft:stone",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Powder Snow",
+        "inputs": [
+            "minecraft:powder_snow"
+        ],
+        "output": "minecraft:snow_block",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Rooted Dirt",
+        "inputs": [
+            "minecraft:rooted_dirt"
+        ],
+        "output": "minecraft:dirt",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Suspicious Sand",
+        "inputs": [
+            "minecraft:suspicious_sand"
+        ],
+        "output": "minecraft:sand",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Suspicious Gravel",
+        "inputs": [
+            "minecraft:suspicious_gravel"
+        ],
+        "output": "minecraft:gravel",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Nether Gold Ore",
+        "inputs": [
+            "minecraft:nether_gold_ore"
+        ],
+        "output": "minecraft:netherrack",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Kelp (Replace with Water to avoid air pockets)",
+        "inputs": [
+            "minecraft:kelp",
+            "minecraft:kelp_plant"
+        ],
+        "output": "minecraft:water",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Seagrass (Replace with Water)",
+        "inputs": [
+            "minecraft:seagrass",
+            "minecraft:tall_seagrass"
+        ],
+        "output": "minecraft:water",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Remove Land Vegetation",
+        "inputs": [
+            "minecraft:sweet_berry_bush",
+            "minecraft:bamboo",
+            "minecraft:bamboo_sapling",
+            "minecraft:small_dripleaf",
+            "minecraft:big_dripleaf",
+            "minecraft:big_dripleaf_stem",
+            "minecraft:spore_blossom",
+            "minecraft:hanging_roots",
+            "minecraft:moss_block",
+            "minecraft:moss_carpet",
+            "minecraft:azalea",
+            "minecraft:flowering_azalea",
+            "minecraft:cave_vines",
+            "minecraft:cave_vines_plant",
+            "minecraft:glow_lichen",
+            "minecraft:lily_of_the_valley",
+            "minecraft:cornflower",
+            "minecraft:wither_rose",
+            "minecraft:rose_bush",
+            "minecraft:peony",
+            "minecraft:blue_orchid",
+            "minecraft:allium",
+            "minecraft:bee_nest"
+        ],
+        "output": "minecraft:air",
+        "keep_states": false,
+        "retrogen": true
+    },
+    {
+        "_comment": "Cancel Features",
+        "cancel_feature": true,
+        "features": [
+            "minecraft:patch_berry_bush",
+            "minecraft:patch_large_berry_bush",
+            "minecraft:patch_berry_bush_sparse",
+            "minecraft:flower_warm",
+            "minecraft:flower_flower_forest",
+            "minecraft:flower_forest_flowers",
+            "minecraft:trees_flower_forest",
+            "minecraft:forest_flowers",
+            "minecraft:kelp_cold",
+            "minecraft:kelp_warm",
+            "minecraft:seagrass_simple",
+            "minecraft:seagrass_short",
+            "minecraft:seagrass_tall",
+            "minecraft:seagrass_mid",
+            "minecraft:seagrass_warm",
+            "minecraft:seagrass_normal",
+            "minecraft:seagrass_river",
+            "minecraft:seagrass_swamp",
+            "minecraft:bee_nest",
+            "minecraft:ore_granite",
+            "minecraft:ore_diorite",
+            "minecraft:ore_andesite",
+            "minecraft:amethyst_geode",
+            "minecraft:underwater_magma",
+            "minecraft:ore_emerald",
+            "minecraft:ore_tuff",
+            "minecraft:glow_lichen",
+            "minecraft:ore_nether_gold",
+            "minecraft:ore_nether_gold_large",
+            "minecraft:ore_nether_gold_extra_large",
+            "minecraft:sculk_patch_deep_dark",
+            "minecraft:sculk_patch_ancient_city"
+        ],
+        "inputs": [],
+        "output": "minecraft:air"
+    }
+]
