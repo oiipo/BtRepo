@@ -1,0 +1,17 @@
+filename = 'reliable_replacer-neoforge-1.21.1-1.0.2.jar'
+name = 'Reliable Replacer'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2'
+
+[download]
+hash = '0eed07c5df99717cae7eafcfe9a8c6c03f57a28f88b60658adcf64d220b07e2bc0e89d5c372c07d40a3ee89fb9174e80cf9d90ed18ca7f67092bef06fc25450f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/swDAEYpN/versions/oko2WJ14/reliable_replacer-neoforge-1.21.1-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'swDAEYpN'
+version = 'oko2WJ14'
