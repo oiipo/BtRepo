@@ -46,32 +46,21 @@ ServerEvents.recipes(event => {
     event.shaped(`minecraft:diamond_axe${diamondEnchants}`, ['DD ', 'DS ', ' S '], { D: 'minecraft:diamond', S: 'minecraft:stick' }).id('kubejs:diamond_axe_eff3_unb1')
     event.remove({ output: 'minecraft:diamond_axe' })
 
-    // Shovel
-    event.shaped(`minecraft:diamond_shovel${diamondEnchants}`, ['D', 'S', 'S'], { D: 'minecraft:diamond', S: 'minecraft:stick' }).id('kubejs:diamond_shovel_eff3_unb1')
-    event.remove({ output: 'minecraft:diamond_shovel' })
 
     // Hoe
     event.shaped(`minecraft:diamond_hoe${diamondEnchants}`, ['DD', ' S', ' S'], { D: 'minecraft:diamond', S: 'minecraft:stick' }).id('kubejs:diamond_hoe_eff3_unb1')
     event.remove({ output: 'minecraft:diamond_hoe' })
 
-    // --- Iron Tools: Fortune 1 ---
-    const ironEnchants = '[minecraft:enchantments={levels:{"minecraft:fortune":1}}]'
+    // --- Diamond Shovel Special: Efficiency 2 only ---
+    const diamondShovelEnchants = '[minecraft:enchantments={levels:{"minecraft:efficiency":2}}]'
+    event.shaped(`minecraft:diamond_shovel${diamondShovelEnchants}`, ['D', 'S', 'S'], { D: 'minecraft:diamond', S: 'minecraft:stick' }).id('kubejs:diamond_shovel_eff2')
+    // Note: The previous loop handled all diamond tools, but we need to override the shovel specifically? 
+    // Wait, the previous lines 49-51 defined the shovel with 'diamondEnchants'. I must REMOVE or REPLACE that block.
+    // I will replace the original Shovel block.
 
-    // Pickaxe
-    event.shaped(`minecraft:iron_pickaxe${ironEnchants}`, ['III', ' S ', ' S '], { I: 'minecraft:iron_ingot', S: 'minecraft:stick' }).id('kubejs:iron_pickaxe_fort1')
-    event.remove({ output: 'minecraft:iron_pickaxe' })
 
-    // Axe
-    event.shaped(`minecraft:iron_axe${ironEnchants}`, ['II ', 'IS ', ' S '], { I: 'minecraft:iron_ingot', S: 'minecraft:stick' }).id('kubejs:iron_axe_fort1')
-    event.remove({ output: 'minecraft:iron_axe' })
-
-    // Shovel
-    event.shaped(`minecraft:iron_shovel${ironEnchants}`, ['I', 'S', 'S'], { I: 'minecraft:iron_ingot', S: 'minecraft:stick' }).id('kubejs:iron_shovel_fort1')
-    event.remove({ output: 'minecraft:iron_shovel' })
-
-    // Hoe
-    event.shaped(`minecraft:iron_hoe${ironEnchants}`, ['II', ' S', ' S'], { I: 'minecraft:iron_ingot', S: 'minecraft:stick' }).id('kubejs:iron_hoe_fort1')
-    event.remove({ output: 'minecraft:iron_hoe' })
+    // --- Iron Tools: Fortune Removed (Vanilla default) ---
+    // Previous KubeJS recipes for Iron Fortune removed to restore vanilla behavior.
 })
 
 // The simulation logic to handle the "Stone to Cobblestone" fix

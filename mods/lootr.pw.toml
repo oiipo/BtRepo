@@ -1,0 +1,17 @@
+filename = 'lootr-neoforge-1.21.1-1.11.36.114.jar'
+name = 'Lootr'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.11.36.114'
+
+[download]
+hash = '25294239c1c5efa93c9f5502c53082fd17da29dc234fb95182d5c94c721b3f2dc583efd93c576edcf624e31ab798a8363864ce1b4ad288bebac76367dc80261d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EltpO5cN/versions/4dt0SxY0/lootr-neoforge-1.21.1-1.11.36.114.jar'
+
+[update.modrinth]
+mod-id = 'EltpO5cN'
+version = '4dt0SxY0'
