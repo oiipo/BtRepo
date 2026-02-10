@@ -1,0 +1,45 @@
+ServerEvents.recipes(event => {
+    console.info('Loading Item Obliterator Blacklist from config/item_obliterator.json5')
+    
+    // Path is relative to the minecraft instance root
+    const configPath = 'config/item_obliterator.json5'
+    
+    // JsonIO is the standard KubeJS way to read JSON/Config files.
+    // It uses a lenient parser that usually handles comments (standard in modpacks).
+    let config = JsonIO.read(configPath)
+
+    // Safety check: ensure file was read
+    if (config == null) {
+        console.error(`[Item Obliterator Compat] Could not read ${configPath}. Check if the file exists and is valid.`)
+        return
+    }
+
+    // Safety check: ensure property exists
+    if (!config.blacklisted_items) {
+        console.error(`[Item Obliterator Compat] 'blacklisted_items' array not found in ${configPath}.`)
+        return
+    }
+
+    let blacklist = config.blacklisted_items
+    let count = 0
+
+    blacklist.forEach(entry => {
+        // Entries starting with '!' are regex patterns
+        if (entry.startsWith('!')) {
+            let pattern = entry.substring(1)
+            try {
+                // Remove using Regex
+                event.remove({ output: new RegExp(pattern) })
+                count++
+            } catch (e) {
+                console.error(`[Item Obliterator Compat] Invalid Regex '${pattern}': ${e}`)
+            }
+        } else {
+            // Standard Item ID
+            event.remove({ output: entry })
+            count++
+        }
+    })
+
+    console.info(`[Item Obliterator Compat] Processed ${count} blacklist entries for recipe removal.`)
+})

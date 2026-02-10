@@ -186,7 +186,6 @@ ServerEvents.recipes(event => {
 
     // 14.2 Red Bed is the only bed
     // (Already handled in Section 5: "BEDS (Always Red)", but confirming removal of all others)
-    event.remove({ output: '#minecraft:beds', not: { output: 'minecraft:red_bed' } })
 
     event.remove({ output: 'minecraft:oak_door' })
     event.shaped('1x minecraft:oak_door', [
