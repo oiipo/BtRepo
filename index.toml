@@ -825,10 +825,6 @@ file = "kubejs/assets/kubejs/sounds.json"
 hash = "04a0b8934da802a152317b324804591dc13560b284f7648bb334c717c4e34502"
 
 [[files]]
-file = "kubejs/assets/kubejs/sounds/music/BtRepo.code-workspace"
-hash = "c46061f350f405af49dfd457b837000ee27d8af08b9444804c86a802abfc3e51"
-
-[[files]]
 file = "kubejs/assets/kubejs/sounds/music/disc_1.ogg"
 hash = "0b1fdf1247be270b78624c0ab36f2c51efd6f25899f14a13363040e61a490d58"
 
