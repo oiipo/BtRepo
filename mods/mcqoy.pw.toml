@@ -1,6 +1,6 @@
 filename = 'mcqoy-0.4.1+neo-1.21.jar'
 name = 'McQoy'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [
     '1.21.1',
